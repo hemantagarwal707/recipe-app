@@ -3,6 +3,7 @@ import Slider from "react-slick";
 // Import css files
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from 'react-router-dom';
 
 const TrendingSlider = () => {
     const [data, setData] = useState([])
@@ -49,11 +50,11 @@ const TrendingSlider = () => {
           >
             {data.map((d) => {
               return (
-               
+                <Link to={`/${d.idMeal}`} key={d.idMeal}>
                 <div className='slider2'>
                   <img src={d.strMealThumb} alt="" style={{ width:'10rem', height:'7rem' }} />
                 </div>
-               
+                </Link>
               )
             })}
   
