@@ -43,3 +43,23 @@
 .right div:hover{
   background-color: rgb(28, 28, 61);
 }
+.slider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  margin-left: 2rem;
+  perspective: 800px;
+}
+
+
+.slider img{
+  border-radius: 5%;
+  border: 2px solid rgb(87, 87, 165);
+  transition: transform 0.3s ease;
+}
+
+.slider img:hover{
+  transform: translateZ(100px);
+  border: 2px solid yellow;
+}
