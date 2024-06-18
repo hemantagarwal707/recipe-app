@@ -19,7 +19,10 @@ const Navbar = () => {
         <div className="right">
           <div>indian</div>
           <div>american</div>
-          
+          <div>british</div>
+          <div>chinese</div>
+          <div>thai</div>
+
 
         </div>
     </div>
