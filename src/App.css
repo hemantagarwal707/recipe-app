@@ -63,3 +63,22 @@
   transform: translateZ(100px);
   border: 2px solid yellow;
 }
+.slider2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 800px;
+  width: 98%;
+  margin: 1rem;
+}
+
+.slider2 img{
+  border-radius: 5%;
+  border: 2px solid rgb(87, 87, 165);
+  transition: transform 0.3s ease;
+}
+
+.slider2 img:hover{
+  transform: translateZ(150px);
+  border: 2px solid yellow;
+}

@@ -9,6 +9,7 @@ const Home = () => {
     <div className="main">
     <Navbar />
     <PopularSlider />
+    <TrendingSlider />
     </div>
     </>
   )
