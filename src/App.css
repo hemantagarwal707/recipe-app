@@ -82,3 +82,26 @@
   transform: translateZ(150px);
   border: 2px solid yellow;
 }
+.btn{
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: yellow;
+  border-radius: 5%;
+  margin: 2rem;
+  border: 2px solid blue;
+}
+.img{
+  perspective: 800px;
+}
+
+.img img{
+  border-radius: 5%;
+  border: 2px solid rgb(87, 87, 165);
+  transition: transform 0.3s ease;
+}
+
+.img img:hover{
+  transform: translateZ(100px);
+  border: 2px solid yellow;
+}
